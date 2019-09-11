@@ -1,11 +1,12 @@
 describe('blinkyDancer', function() {
 
-  var blinkyDancer, clock;
+  var blinkyDancer, awkwardDancer, clock;
   var timeBetweenSteps = 100;
 
   beforeEach(function() {
     clock = sinon.useFakeTimers();
     blinkyDancer = new makeBlinkyDancer(10, 20, timeBetweenSteps);                                  // creates a new copy of makeBlinkyDancer class and assigns it to a variable
+    awkwardDancer = new makeAwkwardDancer(10, 20, timeBetweenSteps);
     //added 'new' makeBlinkyDancer
   });
 
