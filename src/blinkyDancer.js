@@ -10,7 +10,7 @@ var makeBlinkyDancer = function(top, left, timeBetweenSteps) {                  
 // other effects you can use on a jQuery-wrapped html tag.
 
 makeBlinkyDancer.prototype = Object.create(makeDancer.prototype);                                       // Object.create creates a new object in the makeBlinkyDancer.prototype and linking the parent's prototypes/methods into it
-makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;                                              // then, in order for makeBlinkyDancer object to have it's own
+makeBlinkyDancer.prototype.constructor = makeBlinkyDancer;                                              // then, in order for makeBlinkyDancer object to have it's
 
 makeBlinkyDancer.prototype.step = function() {
 
